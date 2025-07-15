@@ -1,4 +1,12 @@
 -----PERFORM DATA CLEANSING AND TRANSFORMATIONS, QUALITY CHECKS, DATA VALIDATION ------
+ -- It includes checks for:
+ --    - Null or duplicate primary keys.
+ --    - Unwanted spaces in string fields.
+ --    - Data standardization and consistency.
+ --    - Invalid date ranges and orders.
+ --    - Data consistency between related fields.
+
+
 ---TABLE : silver.crm_cust_info
 
 -- CHECK FOR DUPLICATES OR NULLS IN PRIMARY KEY 
